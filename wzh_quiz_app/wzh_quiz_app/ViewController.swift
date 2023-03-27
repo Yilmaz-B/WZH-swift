@@ -72,6 +72,9 @@ class ViewController: UIViewController {
         showQuestion()
         hideAnswerButton.isHidden = true
         showButton.isHidden = false
+        if(categoryQuestionsCount == categoryQuestions.count-1){
+            categoryQuestionsCount = 0
+        }
     }
     
     // Laad alle functies die hierin zitten nadat de pagina ingeladen is
